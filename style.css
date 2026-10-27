@@ -33,11 +33,14 @@
     transition: background-color 0.3s ease;
 }
 
+
 /* Effet au survol des liens */
 #header-section nav ul li a:hover {
     background-color: yellow;
-=======
-#footer-section {
+
+
+
+    #footer-section {
     background-color: #2c2c2c;
     color: #ffffff;
     text-align:left;
@@ -62,5 +65,4 @@
 
 .footer-infos {
     text-align: right;
->>>>>>> 86623faef09602ff6a2c2118b3a1c8fb06af6871
 }
