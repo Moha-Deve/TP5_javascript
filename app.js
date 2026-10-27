@@ -1,3 +1,4 @@
+// Javascript membre du footer
 function majFooter() {
     // Statut ouvert / fermé (12h à 23h)
     const statut = document.getElementById("statut-ouverture");

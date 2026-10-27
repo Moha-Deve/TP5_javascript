@@ -1,4 +1,4 @@
-/* Stylage CSS de Edigard */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,7 +34,7 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
+/* Footer Styles*/
 footer {
     text-align: center;
     padding: 15px;
