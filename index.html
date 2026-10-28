@@ -21,32 +21,57 @@
     </header>
 
     <!-- PARTIE 2 : MENU (Membre 2) -->
-    <main id="main-section">
-        <!-- Membre 2 va coder ici -->
+ <main>
+    <!-- 1. SECTION ACCUEIL -->
+    <section id="accueil" class="hero-section">
+        <div class="welcome-banner">
+            <h2>Bienvenue dans votre expérience culinaire de luxe</h2>
+            <p>Découvrez nos plats raffinés préparés par des chefs passionnés.</p>
+        </div>
+    </section>
 
-        <h2>Commander un plat</h2>
+    <!-- 2. SECTION MENU / COMMANDER (Ton formulaire actuel) -->
+    <section id="menu" class="order-section">
+        <div class="card-order">
+            <h3>Commander un plat</h3>
+            <form id="order-form">
+                <div class="form-group">
+                    <label for="plat-select">Choisissez votre plat :</label>
+                    <select id="plat-select" name="plat" required>
+                        <option value="">-- Sélectionnez un plat --</option>
+                        <option value="entrecote">Entrecôte Grillée (25€)</option>
+                        <option value="saumon">Pavé de Saumon Rôti (22€)</option>
+                        <option value="risotto">Risotto aux Champignons (18€)</option>
+                    </select>
+                </div>
 
-        <form>
-            <!-- Liste déroulante des plats -->
-            <label for="dish-select">Choisissez votre plat :</label>
-            <select id="dish-select" required>
-                <option value="">-- Sélectionnez un plat --</option>
-                <option value="1">Tajine de Poulet - 65 MAD</option>
-                <option value="2">Couscous Royal - 80 MAD</option>
-                <option value="3">Pastilla au Poulet - 70 MAD</option>
-                <option value="4">Salade Marocaine - 35 MAD</option>
-            </select>
+                <div class="form-group">
+                    <label for="quantity">Quantité :</label>
+                    <input type="number" id="quantity" name="quantite" min="1" value="1" required>
+                </div>
 
-            <!-- Champ Quantité -->
-            <label for="quantity">Quantité :</label>
-            <input type="number" id="quantity" value="1" min="1" max="10" required>
+                <button type="submit" class="btn-submit">Ajouter à la commande</button>
+            </form>
+        </div>
+    </section>
 
-            <!-- Bouton de validation -->
-            <button type="submit" class="btn-submit">Ajouter à la commande</button>
-        </form>
-    </main>
-
-
+    <!-- 3. SECTION CONTACT -->
+    <section id="contact" class="contact-section">
+        <h3>Contactez-nous & Horaires</h3>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><strong>Adresse :</strong> 123 Rue de la Gastronomie, Paris</p>
+                <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
+                <p><strong>Email :</strong> contact@restaurantdelux.fr</p>
+            </div>
+            <div class="opening-hours">
+                <p><strong>Horaires d'ouverture :</strong></p>
+                <p>Du Lundi au Dimanche : 12:00 - 23:00 (7j/7)</p>
+            </div>
+        </div>
+    </section>
+</main>
+    
     <!-- PARTIE 3 : FOOTER (Membre 3) -->
     <footer id="footer-section">
     <div class="footer-content">
