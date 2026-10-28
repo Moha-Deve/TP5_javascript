@@ -45,3 +45,4 @@ form.addEventListener('submit', function(event) {
     // 5. Affichage d'un message simple à l'utilisateur
     alert(`Commande ajoutée !\nPlat : ${nomDuPlat}\nQuantité : ${quantite}`);
 });
+
