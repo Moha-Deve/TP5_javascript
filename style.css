@@ -78,6 +78,9 @@ footer {
 .footer-links a{
     color:#ffffff;
 }
-.footer-links:active{
+.footer-links a:active{
     color:chartreuse;
+}
+.footer-links a:hover{
+    text-decoration:crimson;
 }
