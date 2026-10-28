@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 // Javascript membre du footer
 function majFooter() {
     // Statut ouvert / fermé (12h à 23h)
@@ -46,4 +49,7 @@ form.addEventListener('submit', function(event) {
     // 5. Affichage d'un message simple à l'utilisateur
     alert(`Commande ajoutée !\nPlat : ${nomDuPlat}\nQuantité : ${quantite}`);
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev

@@ -132,6 +132,43 @@ footer {
 .footer-links a:active{
     color:chartreuse;
 }
+<<<<<<< HEAD
 .footer-links a:hover{
     text-decoration:crimson;
 }
+=======
+
+/* Alignement des éléments du formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Champs de texte et menu déroulant */
+select, input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Bouton d'envoi */
+.btn-submit {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #d35400;
+}
+>>>>>>> origin/dev
