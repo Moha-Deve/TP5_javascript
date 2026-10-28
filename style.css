@@ -30,7 +30,6 @@
     font-weight: bold;
     padding: 8px 15px;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
 }
 
 /* Effet au survol des liens */
@@ -65,11 +64,62 @@
 .footer-infos {
     text-align: right;
 }
-.footer-title {
-    margin: 0 0 12px 0;
-    padding-bottom: 6px;
-    border-bottom: 2px solid #ffffff;
-    font-size: 1.2em;
-    text-align: left;
+
+/*Style css de Hassane(main)
+
+/* Image de fond sur toute la page */
+body {
+  background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
 }
 
+/* Boîte du formulaire au centre */
+#main-section {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95); /* Fond blanc légèrement transparent */
+  border-radius: 10px;
+}
+
+/* Titre */
+#main-section h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Alignement des éléments du formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Champs de texte et menu déroulant */
+select, input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Bouton d'envoi */
+.btn-submit {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #d35400;
+}
