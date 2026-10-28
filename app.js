@@ -11,6 +11,19 @@ function majFooter() {
 
 majFooter();
 
+
+// Attendre que le DOM soit complètement chargé
+document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll("#header-section nav ul li a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function(event) {
+            // Récupère le texte du lien cliqué (ex: "Accueil", "Menu", "Contact")
+            const sectionName = this.textContent;
+            console.log("L'utilisateur a cliqué sur la section : " + sectionName);
+        });
+    });
+});
 /*code javascrip de Hassane(main)*/
 
 // 1. Sélection du formulaire dans le HTML
