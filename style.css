@@ -132,11 +132,10 @@ footer {
 .footer-links a:active{
     color:chartreuse;
 }
-<<<<<<< HEAD
+
 .footer-links a:hover{
     text-decoration:crimson;
 }
-=======
 
 /* Alignement des éléments du formulaire */
 form {
@@ -171,4 +170,3 @@ select, input {
 .btn-submit:hover {
   background-color: #d35400;
 }
->>>>>>> origin/dev
