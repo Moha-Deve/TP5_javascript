@@ -132,11 +132,10 @@ footer {
 .footer-links a:active{
     color:chartreuse;
 }
-<<<<<<< HEAD
+
 .footer-links a:hover{
     text-decoration:crimson;
 }
-=======
 
 /* Alignement des éléments du formulaire */
 form {
