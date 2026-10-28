@@ -1,3 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+header {
+    background-color: #c0392b;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* Footer Styles*/
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f3f3f3;
+}
 #header-section {
     background-color: #2c3e50;
     color: white;
@@ -30,7 +71,6 @@
     font-weight: bold;
     padding: 8px 15px;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
 }
 
 /* Effet au survol des liens */
@@ -38,7 +78,20 @@
     background-color: yellow;
 }
 
-
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/* Footer Styles*/
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f3f3f3;
+    color: white;
+}
 #footer-section {
     background-color: #555555; 
     color: #ffffff;
@@ -65,31 +118,25 @@
 .footer-infos {
     text-align: right;
 }
-
-/*Style css de Hassane(main)
-
-/* Image de fond sur toute la page */
-body {
-  background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200');
-  background-size: cover;
-  background-position: center;
-  font-family: Arial, sans-serif;
+.footer-title {
+    margin: 0 0 12px 0;
+    padding-bottom: 6px;
+    color: #d1e029;
+    font-size: 1.2em;
+    text-align: left;
+    text-transform:capitalize;
 }
-
-/* Boîte du formulaire au centre */
-#main-section {
-  width: 350px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.95); /* Fond blanc légèrement transparent */
-  border-radius: 10px;
+.footer-links a{
+    color:#ffffff;
 }
-
-/* Titre */
-#main-section h2 {
-  text-align: center;
-  color: #333;
+.footer-links a:active{
+    color:chartreuse;
 }
+<<<<<<< HEAD
+.footer-links a:hover{
+    text-decoration:crimson;
+}
+=======
 
 /* Alignement des éléments du formulaire */
 form {
@@ -124,3 +171,4 @@ select, input {
 .btn-submit:hover {
   background-color: #d35400;
 }
+>>>>>>> origin/dev

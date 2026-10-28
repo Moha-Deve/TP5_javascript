@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/dev
 // Javascript membre du footer
 function majFooter() {
     // Statut ouvert / fermé (12h à 23h)
@@ -11,6 +15,19 @@ function majFooter() {
 
 majFooter();
 
+
+// Attendre que le DOM soit complètement chargé
+document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll("#header-section nav ul li a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function(event) {
+            // Récupère le texte du lien cliqué (ex: "Accueil", "Menu", "Contact")
+            const sectionName = this.textContent;
+            console.log("L'utilisateur a cliqué sur la section : " + sectionName);
+        });
+    });
+});
 /*code javascrip de Hassane(main)*/
 
 // 1. Sélection du formulaire dans le HTML
@@ -32,3 +49,7 @@ form.addEventListener('submit', function(event) {
     // 5. Affichage d'un message simple à l'utilisateur
     alert(`Commande ajoutée !\nPlat : ${nomDuPlat}\nQuantité : ${quantite}`);
 });
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/dev
