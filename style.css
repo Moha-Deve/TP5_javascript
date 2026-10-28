@@ -68,28 +68,30 @@
 /*Style css de Hassane(main)
 
 /* Image de fond sur toute la page */
-body {
-  background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200');
-  background-size: cover;
-  background-position: center;
-  font-family: Arial, sans-serif;
+.welcome-banner img{
+    max-width: 100%;           /* Limite la largeur maximale */
+    height: 20%;        /* Centre le bloc sur la page avec de la marge en haut et en bas */
+              /* Espacement interne sur les côtés */
 }
-
 /* Boîte du formulaire au centre */
-#main-section {
-  width: 350px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.95); /* Fond blanc légèrement transparent */
-  border-radius: 10px;
+/* Style de la bannière d'accueil */
+
+
+.welcome-banner h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #1a252f;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Titre */
-#main-section h2 {
-  text-align: center;
-  color: #333;
+.welcome-banner p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555555;
+    margin-bottom: 30px;
+    font-style: italic;
 }
-
 /* Alignement des éléments du formulaire */
 form {
   display: flex;
