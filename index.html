@@ -10,15 +10,71 @@
 
     <!-- PARTIE 1 : HEADER (Membre 1) -->
     <header id="header-section">
+        <h1>Bienvenue a notre Restaurant de Lux</h1>
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
         <!-- Membre 1 va coder ici -->
     </header>
 
     <!-- PARTIE 2 : MENU (Membre 2) -->
-    <main id="main-section">
-        <!-- Membre 2 va coder ici -->
-    </main>
+ <main>
+        <!-- 1. SECTION ACCUEIL -->
+ <section id="accueil" class="hero-section">
+    <div class="welcome-banner">
+        <h2>Bienvenue dans l'un de nos meilleurs restaurant luxeux</h2>
+        <p>Découvrez nos plats raffinés préparés par des chefs passionnés.</p>
+        <img src="image-restaurant.jpg" alt="Restaurant de luxe">
+    </div>
+ </section>
 
-    <!-- PARTIE 3 : FOOTER (Edigard) -->
+        <!-- 2. SECTION MENU / COMMANDER -->
+        <section id="menu" class="order-section">
+            <div class="card-order">
+                <h3>Commander un plat</h3>
+                <form id="order-form">
+                    <div class="form-group">
+                        <label for="plat-select">Choisissez votre plat :</label>
+                        <select id="plat-select" name="plat" required>
+                            <option value="">-- Sélectionnez un plat --</option>
+                            <option value="entrecote">Entrecôte Grillée (25€)</option>
+                            <option value="saumon">Pavé de Saumon Rôti (22€)</option>
+                            <option value="risotto">Risotto aux Champignons (18€)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity">Quantité :</label>
+                        <input type="number" id="quantity" name="quantite" min="1" value="1" required>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Ajouter à la commande</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 3. SECTION CONTACT -->
+        <section id="contact" class="contact-section">
+            <h3>Contactez-nous & Horaires</h3>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><strong>Adresse :</strong> 📍Adresse: El Manar, Casablanca</p>
+                    <p><strong>Téléphone :📞contact:0735648901</p>
+                    <p><strong>Email :</strong>✉️email:restaurantluxe@restaurant.ma</p>
+                </div>
+                <div class="opening-hours">
+                    <p><strong>Horaires d'ouverture :</strong> Du Lundi au Dimanche : 12:00 - 23:00 (7j/7)</p>
+                    <p id="statut-ouverture"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- PARTIE 3 : FOOTER (Membre 3) -->
     <footer id="footer-section">
     <div class="footer-content">
         <div class="footer-nav">
@@ -40,7 +96,11 @@
     </div>
 
         <p class="copyright">Copyright &copy; <span id="annee"></span> Restaurant luxe. Tous droits réservés.</p>
+
+        
+        <!-- Membre 3 va coder ici -->
+
     </footer>
-    <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
